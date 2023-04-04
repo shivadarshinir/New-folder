@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        .signup{
+            background-color: rgb(241, 132, 132);
+        }
+        .form-control1{
+           background-color: rgba(157, 58, 250, 0.486);
+        }
+        
+    </style>
+</head>
+
+<body >
+    <div class="container">
+        <nav class="navbar navbar-expand-lg  bg-dark" data-bs-theme="dark">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blogContent.html">Content</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="webpage.html">Log in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">sign up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="blogForm.html">Create Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        
+        <div class="signup rounded-2 p-3 ">
+            <h3 class="text-center mb-3">Sign Up</h3>
+            <form action="">
+            <div class="mb-3 row ">
+                <div class="col-auto row  text-center align-items-center" >
+                    <div class="col-auto"><label for="first" class="form-label" aria-placeholder="enter first name">First name</label></div>
+                    <div class="col-auto"><input type="text" id="first" class="form-control" required></div>
+                </div>
+                <div class="col-auto row  text-center align-items-center" >
+                    <div class="col-auto"><label for="second" class="form-label" aria-placeholder="enter last name">last name</label></div>
+                    <div class="col-auto"><input type="text" id="second" class="form-control" required></div>
+                </div> 
+            </div>
+            <div class="mb-3 row">
+                <div class="col-auto"><label for="emai" class="form-label">Email ID</label></div>
+                <div class="col-auto"><input type="email" id="emai" class="form-control" required></div>
+            </div>
+            <div class="mb-3 row">
+                <div class="col-auto"><label for="adr" class="form-label">Address</label></div>
+                <div class="col-auto"><textarea name="adr" id="" cols="30" rows="2"></textarea></div>
+            </div>
+            <div class="mb-3 row">
+                <div class="col-auto"><label for="uname" class="form-label1">Create Username</label></div>
+                <div class="col-auto"><input type="text" id="uname" class="form-control1" required></div>
+            </div>
+            <div class="mb-3 row">
+                <div class="col-auto"><label for="password1" class="form-label1">Create Password</label></div>
+                <div class="col-auto"><input type="password" id="password1" class="form-control1" required></div>
+            </div>
+
+            <center><button class="bbtn">Create Account</button></center>
+        </form>
+        </div>
+    </div>
+
+
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
